@@ -44,6 +44,9 @@ export default {
 
 <style lang="less" scoped>
 .menu {
+.el-aside::-webkit-scrollbar {
+        display: none;
+    }
     .el-aside {
         height: 100%;
 
